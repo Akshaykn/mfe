@@ -8,5 +8,5 @@ export default () => {
         mount(ref.current);
     }, []);
   
-    return <div ref={ref}>test</div>;
+    return <div ref={ref}></div>;
 };
