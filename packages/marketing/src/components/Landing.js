@@ -16,7 +16,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <MaterialLink component={Link} to="/" color="inherit">
-        Your Website!!
+        Your Website
       </MaterialLink>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -119,7 +119,7 @@ export default function Album() {
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image="https://picsum.photos/200/300"
+                    image="https://source.unsplash.com/random"
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
